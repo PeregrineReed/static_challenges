@@ -2,21 +2,46 @@ body {
   font-family: arial;
 }
 
-h2 {
-  font-weight: bold;
-}
-
 header {
   background-color: AF0000;
   color: white;
   font-weight: bold;
   padding: 10px;
+  height: 38px;
 }
 
-#subheader {
-  display: grid;
-  justify-content: flex-end;
+h1 {
+  padding: 10px;
+  float: left;
+}
+
+h2 {
+  font-weight: bold;
+  padding: 8px 0px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px;
+  float: right;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+ul {
   background-color: 2F2F2F;
+  padding: 8px;
+  height: 30;
+}
+
+li {
+  float: right;
+  display: inline;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
 }
 
 img {
@@ -29,35 +54,37 @@ section {
   grid-template: auto auto auto / 20% 20% 20% 20% 20%;
 }
 
-a {
+#museum {
   grid-area: 1 / 1 / 3 / 5;
-  padding: 20px;
+  padding: 25px;
   margin-right: 50px;
 }
 
-#museum {
+#about {
   grid-area: 3 / 1 / 3 / 5;
-  margin-right: 70px;
-  margin-left: 35px;
+  margin-right: 88px;
+  margin-left: 50px;
 }
 
-b {
+#square {
   grid-area: 1 / 5 / 2 / 6;
-  padding: 20px;
+  padding: 10px 20px;
+  margin-top: 10px;
 }
 
-#c {
+#bridge {
   grid-area: 2 / 5 / 3 / 6;
-  padding: 20px;
+  padding: 10px 20px;
 }
 
-#d {
+#house {
   grid-area: 3 / 5 / 4 / 6;
-  padding: 20px;
+  padding: 10px 20px;
+  margin-bottom: 30px;
 }
 
 footer {
   background-color: 2F2F2F;
   color: white;
-  padding: 20px;
+  padding: 24px;
 }
